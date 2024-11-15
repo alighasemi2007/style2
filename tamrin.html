@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <div class="grid grid-cols-4 gap-4">
+        <div class="child bg-orange-900">01</div>
+        <div class="child bg-orange-900">02</div>
+        <div class="child bg-orange-900">03</div>
+        <div class="child bg-orange-900">04</div>
+        <div class="child bg-orange-900">05</div>
+        <div class="child bg-orange-900">06</div>
+        <div class="child bg-orange-900">07</div>
+        <div class="child bg-orange-900">08</div>
+        <div class="child bg-orange-900">09</div>
+      </div>
+      <br><br>
+      <div class="grid grid-cols-6 gap-4 ">
+        <div class="col-start-2 col-span-4 child bg-lime-400">01</div>
+        <div class="col-start-1 col-end-3 child bg-lime-400">02</div>
+        <div class="col-end-7 col-span-2 child bg-lime-400">03</div>
+        <div class="col-start-1 col-end-7 child bg-lime-400">04</div>
+      </div>
+      <br><br>
+      <div class="grid grid-cols-4 gap-4">
+        <div class="child bg-green-600">01</div>
+        <div class="child bg-green-600">02</div>
+        <div class="child bg-green-600">03</div>
+        <div class="child bg-green-600">04</div>
+        <div class="child bg-green-600">05</div>
+        <div class="grid grid-cols-subgrid gap-4 col-span-3">
+            <div class="child col-start-2 bg-green-600">06</div>
+          </div>
+        <div class="child bg-green-600">07</div>
+        <div class="child bg-green-600">08</div>
+        <div class="child bg-green-600">09</div>
+      </div>
+      <br><br>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="child bg-cyan-500">01</div>
+        <div class="child bg-cyan-500">02</div>
+        <div class="child bg-cyan-500">03</div>
+        <div class="col-span-2 child bg-cyan-500">04</div>
+        <div class="child bg-cyan-500">05</div>
+        <div class="child bg-cyan-500">06</div>
+        <div class="col-span-2 child bg-cyan-500">07</div>
+      </div>
+      <br><br>
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="child row-span-3 bg-sky-700">01</div>
+        <div class="child col-span-2 bg-sky-700">02</div>
+        <div class="child row-span-2 col-span-2 bg-sky-700">03</div>
+      </div>
+      <br><br>
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="child row-start-2 row-span-2 bg-sky-700">01</div>
+        <div class="child row-end-3 row-span-2 bg-sky-700">02</div>
+        <div class="child row-start-1 row-end-4 bg-sky-700">03</div>
+      </div>
+</body>
+</html>

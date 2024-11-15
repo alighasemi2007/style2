@@ -1,0 +1,48 @@
+@use "ali";
+@use "all";
+// @import url("_all.scss");
+.h-500{
+    height: 500px;
+}
+
+.child{
+    padding: 3rem;
+    text-align: center;
+    border: 1px solid black;
+}
+.custom{
+    background-color: lightblue;
+    align-items: flex-start;
+}
+.arrow{
+    width: 25px;
+    border-radius: 90rem;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10rem;
+    right: 30px;
+    // box-shadow: 1px 1px 5px #2c2c2c;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.py-4
+{
+    padding: 4rem;
+}
+.py-12
+{
+    padding: 12rem;
+}
+.py-8
+{
+    padding: 8rem;
+}
+.h-14{
+    height: 3.5rem;
+}

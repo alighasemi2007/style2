@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="grid grid-cols-6 gap-4">
+        <div class="col-start-2 col-span-4 child">01</div>
+        <div class="col-start-1 col-end-3 child">02</div>
+        <div class="col-end-7 col-span-2 child">03</div>
+        <div class="col-start-1 col-end-7 child">04</div>
+      </div>
+      <div class="flex items-stretch ">
+        <div class="child flex-none w-4">01</div>
+        <div class="child flex-1 w-3">02</div>
+        <div class="child flex-1 w-3">03</div>
+      </div>
+    <div class="flex items-stretch ">
+        <div class="child flex-none w-6">01</div>
+        <div class="child flex-auto w-2">02</div>
+        <div class="child flex-auto w-2">03</div>
+      </div>
+    <div class="flex items-stretch ">
+        <div class="child flex-none w-6">01</div>
+        <div class="child flex-none w-2">02</div>
+        <div class="child  w-2">03</div>
+      </div>
+    <div class="flex items-stretch ">
+        <div class="child flex-none w-4">01</div>
+        <div class="child grow h-14 h-14">02</div>
+        <div class="child  flex-none w-5 h-14">03</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="flex ...">
+        <div class="child flex-none w-14 h-14 ...">
+          01
+        </div>
+        <div class="child grow h-14 ...">
+          02
+        </div>
+        <div class="child flex-none w-14 h-14 ...">
+          03
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="flex ...">
+        <div class="child grow h-14 ...">
+          01
+        </div>
+        <div class="child grow-0 h-14 ...">
+          02
+        </div>
+        <div class="child grow h-14 ...">
+          03
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="flex ...">
+        <div class="child flex-none w-14 h-14 ...">
+          01
+        </div>
+        <div class="child shrink w-64 h-14 ...">
+          02
+        </div>
+        <div class="child flex-none w-14 h-14 ...">
+          03
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="flex justify-between ...">
+        <div class="order-last child">01</div>
+        <div class="child">02</div>
+        <div class="child">03</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="grid grid-cols-4 gap-4">
+        <div class="child">01</div>
+        <div class="child">02</div>
+        <div class="child">03</div>
+        <div class="child">04</div>
+        <div class="child">05</div>
+        <div class="child">06</div>
+        <div class="child">07</div>
+        <div class="child">08</div>
+        <div class="child">09</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="grid grid-cols-4 gap-4">
+        <div class="child">01</div>
+        <div class="child">02</div>
+        <div class="child">03</div>
+        <div class="child">04</div>
+        <div class="child">05</div>
+        <div class="grid grid-cols-subgrid gap-4 col-span-3">
+            <div class="child col-start-2">06</div>
+          </div>
+        <div class="child">07</div>
+        <div class="child">08</div>
+        <div class="child">09</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="child">01</div>
+        <div class="child">02</div>
+        <div class="child">03</div>
+        <div class="col-span-2 child">04</div>
+        <div class="child">05</div>
+        <div class="child">06</div>
+        <div class="col-span-2 child">07</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="grid grid-cols-6 gap-4">
+        <div class="child col-start-2 col-span-4 ...">01</div>
+        <div class="child col-start-1 col-end-3 ...">02</div>
+        <div class="child col-end-7 col-span-2 ...">03</div>
+        <div class="child col-start-1 col-end-7 ...">04</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="child row-span-3 ...">01</div>
+        <div class="child col-span-2 ...">02</div>
+        <div class="child row-span-2 col-span-2 ...">03</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="child row-start-2 row-span-2 ...">01</div>
+        <div class="child row-end-3 row-span-2 ...">02</div>
+        <div class="child row-start-1 row-end-4 ...">03</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="grid gap-4 grid-cols-2">
+        <div class="child">01</div>
+        <div class="child">02</div>
+        <div class="child">03</div>
+        <div class="child">04</div>
+      </div>
+    </body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="h-500 bg-blue-300">
+    <div class="grid grid-cols-2 gap-4 place-content-center h-48 ...">
+        <div class="child">01</div>
+        <div class="child">02</div>
+        <div class="child">03</div>
+        <div class="child">04</div>
+      </div>
+    </div>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        <a href="#" class="underline decoration-black"> distinctio quaerat</a>
+        Tempore labore quasi blanditiis , aliquid harum eum quos fugiat, deserunt molestiae? Cum architecto dolores assumenda optio itaque ipsa et magni!
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+      Hello<br />
+      World
+    </span>
+    <span class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+      Hello<br />
+      World
+    </span>
+    <div class="overflow-auto child"></div>
+</html>
